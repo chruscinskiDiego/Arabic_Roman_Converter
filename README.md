@@ -1,42 +1,42 @@
-# Conversor de números arábicos e romanos
+# Arabic and Roman numeral converter
 
-Projeto em Java para conversão bidirecional entre números arábicos e romanos, com interação gráfica via JOptionPane.
+Java project for bidirectional conversion between Arabic and Roman numerals, with graphical interaction through JOptionPane.
 
-## Funcionalidades
+## Features
 
-- Conversão de arábicos para romanos.
-- Conversão de romanos para arábicos.
-- Exceções específicas para entradas inválidas.
-- Testes unitários dos conversores.
+- Converts Arabic numerals to Roman numerals.
+- Converts Roman numerals to Arabic numerals.
+- Uses custom exceptions for invalid input.
+- Includes unit tests for the converters.
 
-## Tecnologias
+## Technologies
 
-Java, Swing/JOptionPane, Maven e JUnit Jupiter. O pom.xml define compilação para Java 18.
+Java, Swing/JOptionPane, Maven and JUnit Jupiter. pom.xml targets Java 18.
 
-## Executar
+## Run locally
 
-Com JDK 18 e Maven instalados:
+With JDK 18 and Maven installed:
 
 ```bash
 mvn compile
 java -cp target/classes application.Program
 ```
 
-O ambiente precisa permitir a abertura de janelas.
+The environment must support graphical windows.
 
-## Testes
+## Tests
 
 ```bash
 mvn test
 ```
 
-## Organização
+## Structure
 
-- `converters/`: algoritmos de conversão.
-- `numbers/`: modelos e exceções.
-- `application/`: menu e inicialização.
-- `src/test/java/`: testes dos conversores.
+- `converters/`: conversion algorithms.
+- `numbers/`: models and exceptions.
+- `application/`: menu and entry point.
+- `src/test/java/`: converter tests.
 
-## Contexto
+## Context
 
-Projeto de estudo de Java, validação de entradas e testes unitários.
+A study project covering Java, input validation and unit testing.
